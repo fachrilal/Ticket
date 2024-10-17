@@ -1,0 +1,61 @@
+.movie-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card img {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 350px; /* Adjust as necessary */
+}
+
+.movie-title {
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.btn-sm {
+    font-size: 0.875rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
